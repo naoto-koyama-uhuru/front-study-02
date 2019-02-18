@@ -1,0 +1,65 @@
+@charset "UTF-8";
+p {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  font-family: "Helvetica Neue",Helvetica,Arial,"游ゴシック",YuGothic,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif;
+  color: #FFFFFF;
+  background-image: url(../images/header.png);
+  height: 540px;
+  background-size: cover;
+}
+
+header .top-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+header .top-wrapper .title-div {
+  padding-left: 180px;
+}
+
+header .top-wrapper .title-div:hover {
+  opacity: 0.7;
+}
+
+header .top-wrapper a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+header .top-wrapper a .title {
+  font-size: 36px;
+  letter-spacing: 3px;
+}
+
+header .top-wrapper a .sub-title {
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+header .top-wrapper .header-navigation-div {
+  padding-right: 80px;
+}
+
+header .top-wrapper .header-navigation-div ul {
+  padding: 0;
+  margin-left: 40px;
+}
+
+header .top-wrapper .header-navigation-div ul:hover {
+  border-bottom: solid #FFFFFF 2px;
+  cursor: pointer;
+}
+
+header li {
+  list-style: none;
+  display: flex;
+}
+
+.top-wrapper {
+  margin: 0 auto;
+}
